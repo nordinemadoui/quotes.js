@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+}
+
+#citations {
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    background: rgb(39, 33, 33);
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 1s ;
+    color: white;
+    cursor: pointer;
+    font-family: 'Newsreader', serif;
+
+}
